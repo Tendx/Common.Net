@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cef008d3-7c2b-414f-8061-8cd9fc525196</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DDFile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DD.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Field.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\A.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\B.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\L.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\M.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types\S.cs" />
+  </ItemGroup>
+</Project>

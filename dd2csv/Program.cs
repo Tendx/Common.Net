@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DDFile;
+using System;
 using System.IO;
 using System.Linq;
 
-namespace DDFile
+namespace dd2csv
 {
     class Program
     {
